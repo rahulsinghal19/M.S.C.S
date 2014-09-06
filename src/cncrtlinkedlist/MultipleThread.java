@@ -19,6 +19,8 @@ public class MultipleThread extends Thread {
     private final Random rand = new Random();
     private final CncrtLinkedList ccList;
     private boolean added, removed, searched;
+    private final int runningTime = 4000;
+    private int wait = 0;
 
     MultipleThread(String name, CncrtLinkedList list) {
         threadName = name;
@@ -27,43 +29,26 @@ public class MultipleThread extends Thread {
        
     @Override
     public void run() {
-        while (true) {
+        while (wait < runningTime) {
             randomNumber = rand.nextInt(100);
             try {
                 switch (threadName) {
                     case "Insert":
                         added = ccList.Add(randomNumber);
-//                        if(added) {
-//                            System.out.println("Insert : Key " + randomNumber + " added");
-//                        }
-//                        else {
-//                            System.out.println("Insert : Key " + randomNumber + " already exists");
-//                        }
                         break;
                     case "Remove":
                         removed = ccList.Remove(randomNumber);
-//                        if(removed) {
-//                            System.out.println("Remove : Key " + randomNumber + " removed");
-//                        }
-//                        else {
-//                            System.out.println("Remove : Key " + randomNumber + " already exists");
-//                        }
                         break;
                     case "Search":
                         searched = ccList.Search(randomNumber);
-//                        if(searched) {
-//                            System.out.println("Search : Key " + randomNumber + " found");
-//                        }
-//                        else {
-//                            System.out.println("Search : Key " + randomNumber + " not found");
-//                        }
                         break;
                 }
-            } catch(Exception ex) {
+                Thread.sleep(100);
+                wait += 100;
+            } catch(InterruptedException ex) {
                 System.out.println("Run : Exception in " + threadName + " thread : " + ex);
             }
         }
-        
     }
     
     @Override
