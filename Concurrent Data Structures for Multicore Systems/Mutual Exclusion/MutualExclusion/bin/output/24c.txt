@@ -1,0 +1,8 @@
+The time taken for Bakery algorithm is 40076 ms
+Number of successful locks (Bakery): 23850
+The time taken for Tournament algorithm is 40077 ms
+Number of successful locks (Tournament): 22997
+
+real	1m20.222s
+user	0m0.624s
+sys	0m0.187s
