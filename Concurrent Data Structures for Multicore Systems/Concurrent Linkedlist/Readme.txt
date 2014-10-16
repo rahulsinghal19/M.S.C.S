@@ -13,7 +13,7 @@ Compare the performance of your two implementations experimentally with respect 
 
 Average the results over several runs.
 
---------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
 
 Firstly, compile the java files in the directory:
 javac *.java

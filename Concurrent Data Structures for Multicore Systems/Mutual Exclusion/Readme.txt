@@ -11,7 +11,7 @@ throughput using the following system parameters:
 
 Average the results over several runs.
 
-----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
 
 Firstly, compile the java files in the directory:
 javac *.java

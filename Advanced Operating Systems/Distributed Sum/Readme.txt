@@ -6,6 +6,7 @@ along the way. The path taken by the token of each process is again specified in
 file. This path is piggybacked on the token by the process that generated the token. At the end,
 each process prints its label value and the sum of all the label values computed by its token.
 
+--------------------------------------------------------------------------------------------------------
 
 Compile: 
 javac *.java
