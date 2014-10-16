@@ -1,0 +1,1 @@
+The goal of the project is to implement Stream Control Transport Protocol (SCTP) to transport different type of data on separate channels in a network. Any type of the data can be sent on different channels in the network without head-of-line blocking on each stream. The data on different channels are sent independently without blocking the other channels.

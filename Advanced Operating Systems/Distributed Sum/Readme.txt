@@ -1,3 +1,12 @@
+Implement a distributed system consisting of n processes. The value of n and the location of each
+of the n processes is specified in a configuration file. Every process selects a label value (basically
+an integer) uniformly at random in the beginning. Every process then circulates a token through
+the system that visits each process in the system once and computes the sum of all the label values
+along the way. The path taken by the token of each process is again specified in the configuration
+file. This path is piggybacked on the token by the process that generated the token. At the end,
+each process prints its label value and the sum of all the label values computed by its token.
+
+
 Compile: 
 javac *.java
 
