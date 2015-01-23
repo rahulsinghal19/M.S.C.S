@@ -1,0 +1,11 @@
+4
+8001
+dc14.utdallas.edu 6665 0
+dc15.utdallas.edu 6666 1
+dc16.utdallas.edu 6667 2
+dc17.utdallas.edu 6668 3
+4
+3 0 1 2
+3 0 1 3
+3 2 3 0
+3 2 3 1

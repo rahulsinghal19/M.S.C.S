@@ -73,10 +73,10 @@ public class OracleJDBC {
         try {
 
 //			connection = DriverManager.getConnection(
-//					"jdbc:oracle:thin:@localhost:1521:mkyong", "rxs132730",
+//					"jdbc:oracle:thin:@localhost:1521:mkyong", "username",
 //					"password");
             connection = DriverManager.getConnection(
-                    "jdbc:oracle:thin:@csoracle.utdallas.edu:1521:student", "rxs132730",
+                    "jdbc:oracle:thin:@csoracle.utdallas.edu:1521:student", "username",
                     "password");
 
         } catch (SQLException e) {

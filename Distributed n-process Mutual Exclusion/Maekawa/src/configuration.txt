@@ -1,0 +1,21 @@
+9
+8022
+dc14.utdallas.edu 5625 0
+dc15.utdallas.edu 5626 1
+dc16.utdallas.edu 5627 2
+dc17.utdallas.edu 5628 3
+dc18.utdallas.edu 5629 4
+dc19.utdallas.edu 5630 5
+dc20.utdallas.edu 5631 6
+dc21.utdallas.edu 5632 7
+dc22.utdallas.edu 5633 8
+9
+2 3 6
+5 0 1 2 4 7
+5 0 1 2 5 8
+5 3 4 5 0 6
+5 3 4 5 1 7
+5 3 4 5 2 8
+5 6 7 8 0 3
+5 6 7 8 1 4
+5 6 7 8 2 5
